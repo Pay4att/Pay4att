@@ -1,99 +1,59 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=30&duration=3200&pause=900&color=B08968&center=true&vCenter=true&width=780&lines=Pay4att;Personal+projects+with+clean+signal;Minimal+surface%2C+dynamic+core" alt="Typing intro for Pay4att" />
-</div>
-
-<div align="center">
-  <a href="https://github.com/Pay4att?tab=repositories">
-    <img src="https://img.shields.io/badge/Public%20Surface-Projects%20%26%20Experiments-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="Public surface badge" />
-  </a>
-  <a href="https://github.com/Pay4att/HandWritingLatex">
-    <img src="https://img.shields.io/github/stars/Pay4att/HandWritingLatex?style=for-the-badge&label=HandWritingLatex&color=b08968" alt="HandWritingLatex stars" />
-  </a>
-  <a href="https://github.com/Pay4att?tab=followers">
-    <img src="https://img.shields.io/github/followers/Pay4att?style=for-the-badge&label=Followers&color=111827" alt="Followers badge" />
-  </a>
-</div>
-
-<br />
-
-<div align="center">
-  <sub>
-    A GitHub profile for personal projects, note-driven experiments, and repositories that are better shown with motion than with a static poster.
-  </sub>
+  <h1>Pay4att</h1>
+  <p>A concise overview of current work across public repositories and selected private systems.</p>
 </div>
 
 <br />
 
 ## About
 
-I keep this profile focused on public work that feels clean, compact, and alive.
+This profile is maintained as a compact technical overview rather than a complete archive.
 
-Current visible threads include handwritten math and LaTeX-oriented tooling, note ecosystem experiments, and profile-level presentation that uses GitHub's README surface properly.
+The public surface remains intentionally limited. Current work spans developer tooling, note ecosystem references, industrial vision applications, radar data services, and speech infrastructure.
 
 ## Snapshot
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pay4att&theme=github_dark" />
-    <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pay4att&theme=github" alt="Profile summary details" />
-  </picture>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pay4att&theme=transparent" alt="Profile summary details" />
 </div>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pay4att&theme=github_dark" />
-    <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pay4att&theme=github" alt="GitHub summary stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Pay4att&hide_border=true&theme=tokyonight" />
-    <img height="170" src="https://streak-stats.demolab.com?user=Pay4att&hide_border=true&theme=default" alt="GitHub streak" />
-  </picture>
-</div>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pay4att&theme=transparent" alt="GitHub summary stats" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pay4att&theme=transparent&utcOffset=8" alt="Productive time card" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Pay4att&theme=transparent" alt="Top languages by repository" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Pay4att&theme=transparent" alt="Top languages by commits" />
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Pay4att&theme=github_dark" />
-    <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Pay4att&theme=github" alt="Top languages by repository" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Pay4att&theme=github_dark" />
-    <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Pay4att&theme=github" alt="Top languages by commits" />
-  </picture>
-</div>
-
-## Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Pay4att&bg_color=1a1b27&color=c0caf5&line=b08968&point=e0af68&area=true&hide_border=true" />
-    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Pay4att&bg_color=ffffff&color=24292f&line=b08968&point=7c5c3b&area=true&hide_border=true" alt="Activity graph" />
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pay4att&theme=github_dark&utcOffset=8" />
-    <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pay4att&theme=github&utcOffset=8" alt="Productive time card" />
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pay4att/Pay4att/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Pay4att/Pay4att/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
-## Selected Repositories
+## Public Repositories
 
 | Repository | Focus | Signal |
 | --- | --- | --- |
-| [**HandWritingLatex**](https://github.com/Pay4att/HandWritingLatex) | handwritten math, LaTeX tooling, OCR-adjacent experiments | ![Stars](https://img.shields.io/github/stars/Pay4att/HandWritingLatex?style=flat-square&color=b08968) |
-| [**obsidian-releases**](https://github.com/Pay4att/obsidian-releases) | note ecosystem context, release flow, plugin distribution references | ![Stars](https://img.shields.io/github/stars/Pay4att/obsidian-releases?style=flat-square&color=111827) |
-| [**All repositories**](https://github.com/Pay4att?tab=repositories) | everything public on this account, kept intentionally lean | ![Repos](https://img.shields.io/badge/surface-open-1f2937?style=flat-square) |
+| [**HandWritingLatex**](https://github.com/Pay4att/HandWritingLatex) | handwritten math, LaTeX tooling, OCR-adjacent experiments | flagship public work |
+| [**obsidian-releases**](https://github.com/Pay4att/obsidian-releases) | note ecosystem context, release flow, plugin distribution references | supporting ecosystem repo |
+| [**All repositories**](https://github.com/Pay4att?tab=repositories) | everything public on this account, kept intentionally lean | browse the full surface |
+
+## Private Work
+
+| Repository | Scope | Status |
+| --- | --- | --- |
+| `SmokeAI` | A Python-based industrial vision application with desktop management UI, model packaging, licensing, and device-side integration paths including Modbus workflows. | private |
+| `Radar` | A radar measurement service that supports single-site and multi-site deployment, UDP point-cloud ingestion, geometric analysis, PCD and JSON outputs, and downstream HTTP delivery. | private |
+| `xiaozhi_tts_api` | A speech serving stack built around IndexTTS and vLLM, with Dockerized deployment and OpenAI-compatible audio endpoints. | private |
 
 ## Notes
 
 - This repository is the special `Pay4att/Pay4att` profile repository, so the README is the profile homepage itself.
-- The snake animation is generated by GitHub Actions and published to the `output` branch.
-- If needed, this can be pushed further with trophies, WakaTime panels, or a denser cyber-style layout later.
+- All profile cards now come from `github-profile-summary-cards` with the `transparent` theme so the visual language stays consistent.
+- The layout uses a fixed two-column table to keep the upper and lower rows aligned inside GitHub's README renderer.
