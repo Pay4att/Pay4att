@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="Contribution snake placeholder">
+  <rect width="1200" height="160" rx="16" fill="#0d1117"/>
+  <text x="48" y="78" fill="#c9d1d9" font-family="'Segoe UI', Arial, sans-serif" font-size="26">
+    Contribution snake will appear here after the workflow runs.
+  </text>
+  <text x="48" y="116" fill="#7d8590" font-family="'Segoe UI', Arial, sans-serif" font-size="18">
+    Actions -> Generate Contribution Snake -> Run workflow
+  </text>
+</svg>

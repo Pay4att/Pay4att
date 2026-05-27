@@ -1,11 +1,25 @@
-### Hi there 👋 I'm Pay4att
+[![github-profile](./assets/hello-im-pay4att.svg)](https://github.com/Pay4att)
 
-- I'm building production-oriented systems around **industrial vision**, **radar data services**, and **speech infrastructure**.
-- I'm currently working on **SmokeAI**, **Radar**, and **xiaozhi_tts_api**.
-- ⚙️ I use daily: `.python`, `.pyqt5`, `.opencv`, `.fastapi`, `.docker`, `.vllm`, `.swift`, `.latex`.
-- 📦 Public repositories: [HandWritingLatex](https://github.com/Pay4att/HandWritingLatex), [obsidian-releases](https://github.com/Pay4att/obsidian-releases), and [Pay4att](https://github.com/Pay4att/Pay4att).
-- 🔒 Private work focuses on desktop runtime, model packaging, device integration, UDP point-cloud pipelines, and OpenAI-compatible speech serving.
-- 🧠 I care about **runtime stability**, **service delivery**, **maintainable deployment paths**, and systems that keep working after the demo.
-- 📫 Reach me on GitHub: [github.com/Pay4att](https://github.com/Pay4att).
+***
 
-![Pay4att's github stats](https://github-readme-stats.vercel.app/api?username=Pay4att&theme=default&show_icons=true&hide_border=true)
+![Python](https://img.shields.io/badge/Code-Python-33aadd?style=flat-square&logo=python&logoColor=ffffff)
+![PyQt5](https://img.shields.io/badge/UI-PyQt5-33aadd?style=flat-square&logo=qt&logoColor=ffffff)
+![FastAPI](https://img.shields.io/badge/API-FastAPI-33aadd?style=flat-square&logo=fastapi&logoColor=ffffff)
+![Docker](https://img.shields.io/badge/Deploy-Docker-33aadd?style=flat-square&logo=docker&logoColor=ffffff)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Pay4att.Pay4att)
+
+I'm **Pay4att**, building production-oriented systems from China.
+
+- :heart: Industrial vision, radar data services, speech infrastructure
+- :hammer_and_pick: Python, PyQt5, FastAPI, Docker, vLLM, OpenCV
+- :computer: Desktop runtime, model serving, device integration, UDP point-cloud pipelines
+- :open_file_folder: Public repos: [HandWritingLatex](https://github.com/Pay4att/HandWritingLatex), [obsidian-releases](https://github.com/Pay4att/obsidian-releases), [Pay4att](https://github.com/Pay4att/Pay4att)
+- :lock: Private work: `SmokeAI`, `Radar`, `xiaozhi_tts_api`
+
+***
+
+![Pay4att Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pay4att&theme=solarized_dark)
+
+![github-contribution-grid-snake](./assets/github-contribution-grid-snake.svg)
+
+![](./profile-3d-contrib/profile-night-view.svg)
