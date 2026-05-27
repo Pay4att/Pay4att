@@ -1,57 +1,96 @@
-<!-- GitHub profile README for Pay4att -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=30&duration=3200&pause=900&color=B08968&center=true&vCenter=true&width=780&lines=Pay4att;Personal+projects+with+clean+signal;Minimal+surface%2C+dynamic+core" alt="Typing intro for Pay4att" />
+</div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img alt="Pay4att profile banner" src="./assets/hero-light.svg" width="100%">
-</picture>
+<div align="center">
+  <a href="https://github.com/Pay4att?tab=repositories">
+    <img src="https://img.shields.io/badge/Public%20Surface-Projects%20%26%20Experiments-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="Public surface badge" />
+  </a>
+  <a href="https://github.com/Pay4att/HandWritingLatex">
+    <img src="https://img.shields.io/github/stars/Pay4att/HandWritingLatex?style=for-the-badge&label=HandWritingLatex&color=b08968" alt="HandWritingLatex stars" />
+  </a>
+  <a href="https://github.com/Pay4att?tab=followers">
+    <img src="https://img.shields.io/github/followers/Pay4att?style=for-the-badge&label=Followers&color=111827" alt="Followers badge" />
+  </a>
+</div>
 
-<p align="center">
-  <sub>Minimal by choice. Public work, quiet experiments, and a clean surface for what matters.</sub>
-</p>
+<br />
 
-<p align="center">
-  <a href="#selected-work">Selected Work</a>
-  ·
-  <a href="#working-style">Working Style</a>
-  ·
-  <a href="https://github.com/Pay4att?tab=repositories">All Repositories</a>
-</p>
+<div align="center">
+  <sub>
+    A GitHub profile for personal projects, note-driven experiments, and repositories that are better shown with motion than with a static poster.
+  </sub>
+</div>
+
+<br />
 
 ## About
 
-I use this profile as a compact public front door: a place to collect personal projects, small technical experiments, and work that benefits from clean presentation.
+I keep this profile focused on public work that feels clean, compact, and alive.
 
-The goal is simple: keep the signal high, keep the layout calm, and let the repositories do the talking.
+Current visible threads include handwritten math and LaTeX-oriented tooling, note ecosystem experiments, and profile-level presentation that uses GitHub's README surface properly.
 
-> I prefer structure over noise, and clarity over decoration.
-
-## Selected Work
+## Snapshot
 
 <table>
   <tr>
-    <td valign="top" width="33%">
-      <a href="https://github.com/Pay4att/HandWritingLatex"><strong>HandWritingLatex</strong></a><br><br>
-      A multi-part repository spanning handwritten math, LaTeX-oriented tooling, and supporting OCR or plugin experiments.
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Pay4att&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=tokyonight" />
+        <img height="170" src="https://github-readme-stats.vercel.app/api?username=Pay4att&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=default" alt="GitHub stats" />
+      </picture>
     </td>
-    <td valign="top" width="33%">
-      <a href="https://github.com/Pay4att/obsidian-releases"><strong>obsidian-releases</strong></a><br><br>
-      A fork connected to the Obsidian ecosystem, useful as a reference point for release flow, plugin distribution, and note-tooling context.
-    </td>
-    <td valign="top" width="33%">
-      <a href="https://github.com/Pay4att?tab=repositories"><strong>Repository Index</strong></a><br><br>
-      The rest of the public surface stays intentionally lean. Browse the full list for current experiments and future additions.
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Pay4att&hide_border=true&theme=tokyonight" />
+        <img height="170" src="https://streak-stats.demolab.com?user=Pay4att&hide_border=true&theme=default" alt="GitHub streak" />
+      </picture>
     </td>
   </tr>
 </table>
 
-## Working Style
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Pay4att&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pay4att&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages" />
+  </picture>
+</div>
 
-`minimal interfaces` `clear structure` `iterative building`
+## Activity
 
-I like projects that become easier to understand the longer you look at them. That usually means fewer moving parts on the surface, tighter naming, and a stronger bias toward calm, readable presentation.
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Pay4att&bg_color=1a1b27&color=c0caf5&line=b08968&point=e0af68&area=true&hide_border=true" />
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Pay4att&bg_color=ffffff&color=24292f&line=b08968&point=7c5c3b&area=true&hide_border=true" alt="Activity graph" />
+  </picture>
+</div>
 
-## Profile Notes
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pay4att/Pay4att/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Pay4att/Pay4att/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
 
-- This repository is the special `Pay4att/Pay4att` profile repository, so this `README.md` is what appears at the top of the GitHub profile.
-- The banner adapts to both light and dark GitHub themes with local SVG assets, which keeps the page distinctive without depending on external generators.
-- As more repositories become public, the `Selected Work` section can be expanded without changing the overall visual language.
+## Selected Repositories
+
+<div align="center">
+  <a href="https://github.com/Pay4att/HandWritingLatex">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Pay4att&repo=HandWritingLatex&hide_border=true&theme=tokyonight" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pay4att&repo=HandWritingLatex&hide_border=true&theme=default" alt="HandWritingLatex repository card" />
+    </picture>
+  </a>
+  <a href="https://github.com/Pay4att/obsidian-releases">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Pay4att&repo=obsidian-releases&hide_border=true&theme=tokyonight" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pay4att&repo=obsidian-releases&hide_border=true&theme=default" alt="obsidian-releases repository card" />
+    </picture>
+  </a>
+</div>
+
+## Notes
+
+- This repository is the special `Pay4att/Pay4att` profile repository, so the README is the profile homepage itself.
+- The snake animation is generated by GitHub Actions and published to the `output` branch.
+- If needed, this can be pushed further with trophies, WakaTime panels, or a denser cyber-style layout later.
