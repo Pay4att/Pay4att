@@ -32,27 +32,32 @@ Current visible threads include handwritten math and LaTeX-oriented tooling, not
 
 ## Snapshot
 
-<table>
-  <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Pay4att&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=tokyonight" />
-        <img height="170" src="https://github-readme-stats.vercel.app/api?username=Pay4att&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=default" alt="GitHub stats" />
-      </picture>
-    </td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Pay4att&hide_border=true&theme=tokyonight" />
-        <img height="170" src="https://streak-stats.demolab.com?user=Pay4att&hide_border=true&theme=default" alt="GitHub streak" />
-      </picture>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pay4att&theme=github_dark" />
+    <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pay4att&theme=github" alt="Profile summary details" />
+  </picture>
+</div>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Pay4att&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pay4att&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pay4att&theme=github_dark" />
+    <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pay4att&theme=github" alt="GitHub summary stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Pay4att&hide_border=true&theme=tokyonight" />
+    <img height="170" src="https://streak-stats.demolab.com?user=Pay4att&hide_border=true&theme=default" alt="GitHub streak" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Pay4att&theme=github_dark" />
+    <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Pay4att&theme=github" alt="Top languages by repository" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Pay4att&theme=github_dark" />
+    <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Pay4att&theme=github" alt="Top languages by commits" />
   </picture>
 </div>
 
@@ -67,6 +72,13 @@ Current visible threads include handwritten math and LaTeX-oriented tooling, not
 
 <div align="center">
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pay4att&theme=github_dark&utcOffset=8" />
+    <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pay4att&theme=github&utcOffset=8" alt="Productive time card" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pay4att/Pay4att/output/github-contribution-grid-snake-dark.svg" />
     <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Pay4att/Pay4att/output/github-contribution-grid-snake.svg" />
   </picture>
@@ -74,20 +86,11 @@ Current visible threads include handwritten math and LaTeX-oriented tooling, not
 
 ## Selected Repositories
 
-<div align="center">
-  <a href="https://github.com/Pay4att/HandWritingLatex">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Pay4att&repo=HandWritingLatex&hide_border=true&theme=tokyonight" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pay4att&repo=HandWritingLatex&hide_border=true&theme=default" alt="HandWritingLatex repository card" />
-    </picture>
-  </a>
-  <a href="https://github.com/Pay4att/obsidian-releases">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Pay4att&repo=obsidian-releases&hide_border=true&theme=tokyonight" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pay4att&repo=obsidian-releases&hide_border=true&theme=default" alt="obsidian-releases repository card" />
-    </picture>
-  </a>
-</div>
+| Repository | Focus | Signal |
+| --- | --- | --- |
+| [**HandWritingLatex**](https://github.com/Pay4att/HandWritingLatex) | handwritten math, LaTeX tooling, OCR-adjacent experiments | ![Stars](https://img.shields.io/github/stars/Pay4att/HandWritingLatex?style=flat-square&color=b08968) |
+| [**obsidian-releases**](https://github.com/Pay4att/obsidian-releases) | note ecosystem context, release flow, plugin distribution references | ![Stars](https://img.shields.io/github/stars/Pay4att/obsidian-releases?style=flat-square&color=111827) |
+| [**All repositories**](https://github.com/Pay4att?tab=repositories) | everything public on this account, kept intentionally lean | ![Repos](https://img.shields.io/badge/surface-open-1f2937?style=flat-square) |
 
 ## Notes
 
