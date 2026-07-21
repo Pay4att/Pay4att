@@ -1,17 +1,43 @@
-[![github-profile](./assets/hello-im-pay4att.svg)](https://github.com/Pay4att)
+# Hi, I'm Pay4att 👋
 
-***
+I build AI products that connect **models, software, and hardware**.
 
-![Python](https://img.shields.io/badge/Code-Python-33aadd?style=flat-square&logo=python&logoColor=ffffff)
-![PyQt5](https://img.shields.io/badge/UI-PyQt5-33aadd?style=flat-square&logo=qt&logoColor=ffffff)
-![FastAPI](https://img.shields.io/badge/API-FastAPI-33aadd?style=flat-square&logo=fastapi&logoColor=ffffff)
-![Docker](https://img.shields.io/badge/Deploy-Docker-33aadd?style=flat-square&logo=docker&logoColor=ffffff)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=Pay4att.Pay4att)
+Based in China, I work across local agents, multimodal services, real-time data pipelines, desktop products, and device automation. I care about the part after the demo: reliable deployment, recoverable state, clean APIs, and interfaces people can actually use.
 
-I'm **Pay4att**, building production-oriented systems from China.
+### What I'm building
 
-- :heart: Industrial vision, radar data services, speech infrastructure
-- :hammer_and_pick: Python, PyQt5, FastAPI, Docker, vLLM, OpenCV
-- :computer: Desktop runtime, model serving, device integration, UDP point-cloud pipelines
-- :open_file_folder: Public repos: [HandWritingLatex](https://github.com/Pay4att/HandWritingLatex), [obsidian-releases](https://github.com/Pay4att/obsidian-releases), [Pay4att](https://github.com/Pay4att/Pay4att)
-- :lock: Private work: `SmokeAI`, `Radar`, `xiaozhi_tts_api`
+- **[Paper Multi-Agents Platform](https://github.com/Pay4att/Paper-MultiAgentsPlatform)** — a research workspace for paper retrieval, PDF analysis, full-text Q&A, and report generation with local models.
+- **[Switch Agent](https://github.com/Pay4att/Switch-agent)** — natural-language Nintendo Switch control through a remote controller API, with scripted actions, NFC loading, and reconnect handling.
+- **[Aster Music](https://github.com/Pay4att/Aster-Music)** — a full-stack music product exploring discovery, playlists, themes, authentication, and a focused playback experience.
+
+### I work with
+
+`Python` · `TypeScript` · `Swift` · `React` · `FastAPI` · `LangGraph` · `Ollama` · `Docker`
+
+Most often around **AI agents**, **industrial vision**, **radar data**, and **hardware integration**.
+
+### Codex activity
+
+<p align="center">
+  <img src="./assets/codex-usage.svg" alt="Pay4att's Codex daily activity" width="100%" />
+</p>
+
+<p align="center"><sub>Daily aggregate counts from the local Codex app-server usage API.</sub></p>
+
+### LeetCode activity
+
+<p align="center">
+  <a href="https://leetcode.cn/u/Pay4att/">
+    <img src="./assets/leetcode-stats.svg" alt="Pay4att's LeetCode China progress" width="100%" />
+  </a>
+</p>
+
+<p align="center"><sub>Automatically refreshed from my public LeetCode China profile.</sub></p>
+
+### GitHub activity
+
+<p align="center">
+  <img src="./assets/github-activity.svg" alt="Pay4att's GitHub daily activity" width="100%" />
+</p>
+
+<p align="center"><sub>Automatically refreshed from GitHub's public contribution calendar.</sub></p>
