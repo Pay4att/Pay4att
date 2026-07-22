@@ -18,7 +18,7 @@
   </defs>
   <rect x="1" y="1" width="998" height="248" rx="16" fill="url(#bg)" stroke="#30363d" />
   <text x="34" y="38" class="eyebrow">LEETCODE CN / PROGRESS</text>
-  <text x="966" y="38" text-anchor="end" class="label">Updated 2026-07-21</text>
+  <text x="966" y="38" text-anchor="end" class="label">Updated 2026-07-22</text>
 
   <text x="34" y="113" class="total">91</text>
   <text x="38" y="138" class="label">problems solved</text>
@@ -39,7 +39,7 @@
 
   <text x="235" y="187" class="stat">5</text>
   <text x="235" y="208" class="label">active days</text>
-  <text x="375" y="187" class="stat">2</text>
+  <text x="375" y="187" class="stat">0</text>
   <text x="375" y="208" class="label">current streak</text>
   <text x="515" y="187" class="stat">3</text>
   <text x="515" y="208" class="label">best streak</text>
