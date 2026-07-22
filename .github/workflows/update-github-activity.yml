@@ -31,3 +31,4 @@ jobs:
           else
             git commit -m "chore: update GitHub activity"
             git push
+          fi
