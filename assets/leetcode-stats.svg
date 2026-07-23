@@ -18,7 +18,7 @@
   </defs>
   <rect x="1" y="1" width="998" height="248" rx="16" fill="url(#bg)" stroke="#30363d" />
   <text x="34" y="38" class="eyebrow">LEETCODE CN / PROGRESS</text>
-  <text x="966" y="38" text-anchor="end" class="label">Updated 2026-07-22</text>
+  <text x="966" y="38" text-anchor="end" class="label">Updated 2026-07-23</text>
 
   <text x="34" y="113" class="total">91</text>
   <text x="38" y="138" class="label">problems solved</text>
