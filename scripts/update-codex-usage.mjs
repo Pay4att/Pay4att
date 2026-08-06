@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
 import { spawn } from "node:child_process";
+import { existsSync } from "node:fs";
 import { mkdir, writeFile } from "node:fs/promises";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -9,10 +11,26 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUTPUT = path.join(ROOT, "assets", "codex-usage.svg");
 const DAYS = 371;
 
-function readUsage() {
+function codexHomes() {
+  const configured = process.env.CODEX_USAGE_HOMES
+    ?.split(path.delimiter)
+    .map((value) => value.trim())
+    .filter(Boolean);
+  const candidates = configured?.length
+    ? configured
+    : [
+        path.join(os.homedir(), ".codex"),
+        path.join(os.homedir(), ".weixin-codex", "codex-home"),
+      ];
+
+  return [...new Set(candidates)].filter((home) => existsSync(path.join(home, "auth.json")));
+}
+
+function readUsage(codexHome) {
   return new Promise((resolve, reject) => {
     const child = spawn("codex", ["app-server", "--stdio"], {
       cwd: ROOT,
+      env: { ...process.env, CODEX_HOME: codexHome },
       stdio: ["pipe", "pipe", "inherit"],
     });
 
@@ -83,6 +101,38 @@ function readUsage() {
 }
 
 const dateKey = (date) => date.toISOString().slice(0, 10);
+
+function aggregateUsage(results) {
+  const daily = new Map();
+  let lifetimeTokens = 0;
+
+  for (const result of results) {
+    lifetimeTokens += Number(result.summary?.lifetimeTokens ?? 0);
+    for (const { startDate, tokens } of result.dailyUsageBuckets ?? []) {
+      daily.set(startDate, (daily.get(startDate) ?? 0) + Number(tokens ?? 0));
+    }
+  }
+
+  const dailyUsageBuckets = [...daily.entries()]
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([startDate, tokens]) => ({ startDate, tokens }));
+  const activeDates = new Set(
+    dailyUsageBuckets.filter(({ tokens }) => tokens > 0).map(({ startDate }) => startDate),
+  );
+  const cursor = new Date(`${dateKey(new Date())}T00:00:00Z`);
+  if (!activeDates.has(dateKey(cursor))) cursor.setUTCDate(cursor.getUTCDate() - 1);
+
+  let currentStreakDays = 0;
+  while (activeDates.has(dateKey(cursor))) {
+    currentStreakDays += 1;
+    cursor.setUTCDate(cursor.getUTCDate() - 1);
+  }
+
+  return {
+    summary: { accountCount: results.length, currentStreakDays, lifetimeTokens },
+    dailyUsageBuckets,
+  };
+}
 
 function startOfWeek(date) {
   const result = new Date(`${dateKey(date)}T00:00:00Z`);
@@ -201,7 +251,7 @@ function render({ summary, dailyUsageBuckets = [] }) {
   <text x="32" y="70" class="stat">${shortNumber(summary.lifetimeTokens)} <tspan class="label">lifetime tokens</tspan></text>
   <text x="330" y="70" class="stat">${summary.currentStreakDays ?? 0} <tspan class="label">day streak</tspan></text>
   <text x="530" y="70" class="stat">${activeDays} <tspan class="label">active days / year</tspan></text>
-  <text x="968" y="38" text-anchor="end" class="label">Updated ${escapeXml(lastUpdated)}</text>
+  <text x="968" y="38" text-anchor="end" class="label">${summary.accountCount ?? 1} accounts · Updated ${escapeXml(lastUpdated)}</text>
   ${monthLabels.join("\n  ")}
   ${dayLabels.map(([day, label]) => `<text x="32" y="${top + day * (cell + gap) + 10}" class="day">${label}</text>`).join("\n  ")}
   ${cells.join("\n  ")}
@@ -213,7 +263,12 @@ function render({ summary, dailyUsageBuckets = [] }) {
 `;
 }
 
-const usage = await readUsage();
+const homes = codexHomes();
+if (!homes.length) {
+  throw new Error("No Codex authentication found. Set CODEX_USAGE_HOMES to one or more Codex home directories.");
+}
+
+const usage = aggregateUsage(await Promise.all(homes.map(readUsage)));
 await mkdir(path.dirname(OUTPUT), { recursive: true });
 await writeFile(OUTPUT, render(usage), "utf8");
-console.log(`Updated ${path.relative(ROOT, OUTPUT)}`);
+console.log(`Updated ${path.relative(ROOT, OUTPUT)} from ${homes.length} accounts`);
