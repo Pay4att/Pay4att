@@ -1,20 +1,22 @@
 # Hi, I'm Pay4att 👋
 
-I build AI products that connect **models, software, and hardware**.
+I build AI systems that connect **models, software, and hardware**.
 
-Based in China, I work across local agents, multimodal services, real-time data pipelines, desktop products, and device automation. I care about the part after the demo: reliable deployment, recoverable state, clean APIs, and interfaces people can actually use.
+Based in China, I work on local agents, multimodal services, full-stack products, and device automation. I care about what happens after the demo: reliable deployment, recoverable state, clear interfaces, and tools people can actually use.
 
-### What I'm building
+### Selected work
 
-- **[Paper Multi-Agents Platform](https://github.com/Pay4att/Paper-MultiAgentsPlatform)** — a research workspace for paper retrieval, PDF analysis, full-text Q&A, and report generation with local models.
+- **[WeiXin Codex](https://github.com/Pay4att/WeiXin-Codex)** — a secure local bridge that brings Codex to WeChat, with persistent threads, multimodal messages, image generation, and sandboxed execution.
+- **[Gomoku AlphaZero](https://github.com/Pay4att/GOMOKU)** — an end-to-end AlphaZero implementation with residual policy-value networks, PUCT search, self-play, arena promotion, and resumable training.
+- **[Paper Multi-Agents Platform](https://github.com/Pay4att/Paper-MultiAgentsPlatform)** — a local-model research workspace for paper retrieval, PDF analysis, full-text Q&A, and report generation.
 - **[Switch Agent](https://github.com/Pay4att/Switch-agent)** — natural-language Nintendo Switch control through a remote controller API, with scripted actions, NFC loading, and reconnect handling.
-- **[Aster Music](https://github.com/Pay4att/Aster-Music)** — a full-stack music product exploring discovery, playlists, themes, authentication, and a focused playback experience.
+- **[Aster Music](https://github.com/Pay4att/Aster-Music)** — a full-stack React music experience with discovery, playlists, authentication, themes, and focused playback.
 
-### I work with
+### Toolbox
 
-`Python` · `TypeScript` · `Swift` · `React` · `FastAPI` · `LangGraph` · `Ollama` · `Docker`
+`Python` · `TypeScript` · `JavaScript` · `React` · `PyTorch` · `FastAPI` · `LangGraph` · `Ollama` · `Docker`
 
-Most often around **AI agents**, **industrial vision**, **radar data**, and **hardware integration**.
+Most often around **AI agents**, **multimodal systems**, **industrial vision**, and **hardware integration**.
 
 ### Codex activity
 
