@@ -39,7 +39,7 @@
 
   <text x="235" y="187" class="stat">7</text>
   <text x="235" y="208" class="label">active days</text>
-  <text x="375" y="187" class="stat">1</text>
+  <text x="375" y="187" class="stat">0</text>
   <text x="375" y="208" class="label">current streak</text>
   <text x="515" y="187" class="stat">3</text>
   <text x="515" y="208" class="label">best streak</text>
